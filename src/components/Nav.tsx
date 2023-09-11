@@ -4,8 +4,8 @@ import logo from "../components/image/promiselogo.png";
 
 const Nav = () => {
   return (
-    <nav className="text-gray-900">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
+    <nav className="text-gray-900 ">
+      <div className="container px-4 mx-auto flex flex-col md:flex-row items-center justify-between">
         <div className="flex items-center justify-between w-full md:w-auto">
           <Link href="/">
             <Image src={logo} width={150} height={150} alt="logo" />
@@ -35,12 +35,12 @@ const Nav = () => {
               </Link>
             </li>
             <li>
-              <Link href="/services">
+              <Link href="/preMed">
                 <p className="hover:text-teal-500">Services</p>
               </Link>
             </li>
             <li>
-              <Link href="/contact">
+              <Link href="/preMed">
                 <p className="hover:text-teal-500">Contact</p>
               </Link>
             </li>
@@ -48,7 +48,10 @@ const Nav = () => {
         </div>
         <div className="hidden md:flex items-center space-x-4">
           <button className="bg-blue-900 text-teal-300 px-4 py-4 rounded-md hover:bg-blue-700">
-            Online Consultation
+            <Link href="/preMed">
+             Online Consultation
+            </Link>
+           
           </button>
         </div>
       </div>
