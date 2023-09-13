@@ -21,7 +21,7 @@ const HomeSection: React.FC = () => {
         <p className="text-xl md:text-2xl mb-4 md:mb-6">
           Your Trusted FirstAID Healthcare Partner
         </p>
-        <ul style={{ listStyle: "none", padding: 0 }}>
+        <ul className="list-none p-0">
           <li className="mb-2 md:mb-6 flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -80,8 +80,8 @@ const HomeSection: React.FC = () => {
           </li>
         </ul>
       </div>
-      <div className="flex flex-col md:flex-row justify-start mt-4 md:mt-8 md:pl-10">
-        <form className="bg-white p-6 rounded-md w-full md:w-1/2 flex items-center">
+      <div className="mt-4 md:mt-8 md:pl-10">
+        <form className="bg-white p-6 rounded-md w-full md:w-1/2 md:flex items-center">
           <select
             id="appointment"
             className="text-gray-800 w-full rounded-md py-2 px-3 focus:outline-none border-b-2 border-teal-500 mb-4 md:mb-0 md:mr-4"
