@@ -1,3 +1,5 @@
+// 'use client'
+
 import AIDoc from "@/components/AIDoc";
 import Footer from "@/components/Footer";
 import Nav from "@/components/Nav";
