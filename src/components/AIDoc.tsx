@@ -7,7 +7,7 @@ interface FormData {
   patientName: string;
   bloodType: string;
   bloodGroup: string;
-  patientAge: number;
+  patientAge: string;
   gender: string;
   medicalDetails: string;
 }
@@ -16,7 +16,7 @@ const initialFormData: FormData = {
   patientName: '',
   bloodType: '',
   bloodGroup: '',
-  patientAge: 0,
+  patientAge: '0',
   gender: 'male',
   medicalDetails: '',
 };
