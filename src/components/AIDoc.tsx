@@ -181,13 +181,13 @@ const AIDoc = () => {
           htmlFor="prediction"
           className="block text-gray-700 text-sm font-bold mb-2"
         >
-          AI Prediction:
+          First AID Prediction:
         </label>
         <textarea
           id="prediction"
           className="shadow appearance-none border rounded w-full h-3/4 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           placeholder="AI prediction goes here"
-          value={mainAnswer ? mainAnswer : "wait 2mins after submitting, if it does show check your network"}
+          value={mainAnswer ? mainAnswer : "wait...."}
         />
       </div>
     </section>
