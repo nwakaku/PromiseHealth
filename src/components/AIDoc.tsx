@@ -187,7 +187,7 @@ const AIDoc = () => {
           id="prediction"
           className="shadow appearance-none border rounded w-full h-3/4 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           placeholder="AI prediction goes here"
-          value={mainAnswer}
+          value={mainAnswer ? mainAnswer : "wait 2mins after submitting, if it does show check your network"}
         />
       </div>
     </section>

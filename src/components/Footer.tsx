@@ -13,8 +13,8 @@ const Footer = () => {
         </div>
 
         <div className="md:w-1/4 md:text-left md:pr-8 mb-5">
-          <h2 className="text-xl font-semibold">Services</h2>
-          <ul className="text-left list-disc pl-4">
+          <h2 className="text-xl text-center font-semibold">Services</h2>
+          <ul className="text-center list-none pl-4">
             <li>Business Planning</li>
             <li>Feasibility Study</li>
             <li>Startup Funding</li>
@@ -24,8 +24,8 @@ const Footer = () => {
         </div>
 
         <div className="md:w-1/4 md:text-left md:pr-8 mb-5">
-          <h2 className="text-xl font-semibold">Pricing & Fees</h2>
-          <ul className="text-left list-disc pl-4">
+          <h2 className="text-xl text-center font-semibold">Pricing & Fees</h2>
+          <ul className="text-center list-none pl-4">
             <li>Compare Insurance Plans</li>
             <li>Standard Plan – $499</li>
             <li>Plus Plan – $799</li>
@@ -34,11 +34,11 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="md:w-1/4 md:text-left mb-5">
-          <h2 className="text-xl font-semibold">Connect</h2>
-          <p>1-800-1-900</p>
-          <p>info@cliniq.com</p>
-          <p> Umudike Mouau</p>
+        <div className="md:w-1/4  md:text-left mb-5">
+          <h2 className="text-xl text-center font-semibold">Connect</h2>
+          <p className="text-center">1-800-1-900</p>
+          <p className="text-center">info@cliniq.com</p>
+          <p className="text-center"> Umudike Mouau</p>
         </div>
       </div>
 

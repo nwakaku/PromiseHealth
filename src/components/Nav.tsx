@@ -8,7 +8,7 @@ const Nav = () => {
       <div className="container px-4 mx-auto flex flex-col md:flex-row items-center justify-between">
         <div className="flex items-center justify-between w-full md:w-auto">
           <Link href="/">
-            <Image src={logo} width={150} height={150} alt="logo" />
+            <Image src={logo} width={120} height={120} alt="logo" />
           </Link>
           <button className="md:hidden text-gray-500 hover:text-gray-700 focus:outline-none">
             <svg
