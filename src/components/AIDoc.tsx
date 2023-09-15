@@ -81,7 +81,7 @@ const AIDoc = () => {
                 htmlFor="bloodType"
                 className="block text-gray-700 text-sm font-bold mb-2"
               >
-                Blood Type:
+                GenoType:
               </label>
               <input
                 type="text"
@@ -153,7 +153,7 @@ const AIDoc = () => {
               htmlFor="medicalDetails"
               className="block text-gray-700 text-sm font-bold mb-2"
             >
-              Medical Details of Patient:
+              Health Issue of Patient:
             </label>
             <textarea
               id="medicalDetails"
@@ -181,7 +181,7 @@ const AIDoc = () => {
           htmlFor="prediction"
           className="block text-gray-700 text-sm font-bold mb-2"
         >
-          First AID Prediction:
+          First AID Prescription:
         </label>
         <textarea
           id="prediction"
